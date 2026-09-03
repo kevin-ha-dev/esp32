@@ -1,0 +1,19 @@
+# ESP-IDF build output
+build/
+
+# Old ESP-IDF configuration backup
+sdkconfig.old
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Temporary files
+*.tmp
+*.log

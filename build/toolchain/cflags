@@ -1,5 +1,0 @@
-"-specs=/Users/kevin/Desktop/robot/esp32/build/specs/picolibc.specs"
--mlongcalls
--fno-builtin-memcpy
--fno-builtin-memset
--fno-builtin-bzero
