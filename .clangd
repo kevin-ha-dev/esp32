@@ -1,0 +1,13 @@
+CompileFlags:
+  CompilationDatabase: build
+  Remove: [-f*, -m*]
+  Add:
+    - -I/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/config/include
+    - -I/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/config/include/freertos
+    - -I/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/config/xtensa/include
+    - -I/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/FreeRTOS-Kernel/include
+    - -I/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos
+    - -I/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include
+    - -I/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos
+    - -I/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/esp_additions/include
+    - -I/Users/kevin/Desktop/robot/esp32/build/config

@@ -1,0 +1,42 @@
+{
+  "configurations": [
+    {
+      "name": "ESP-IDF",
+      "compilerPath": "/Users/kevin/.espressif/tools/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc",
+      "cStandard": "gnu17",
+      "cppStandard": "gnu++26",
+      "intelliSenseMode": "gcc-x64",
+      "compileCommands": "${workspaceFolder}/build/compile_commands.json",
+      "forcedInclude": [
+        "${workspaceFolder}/build/config/sdkconfig.h"
+      ],
+      "includePath": [
+        "${workspaceFolder}/main",
+        "${workspaceFolder}/build/config",
+        "/Users/kevin/.espressif/v6.1/esp-idf/components/esp_driver_gpio/include",
+        "/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/config/include",
+        "/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/config/include/freertos",
+        "/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/config/xtensa/include",
+        "/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/FreeRTOS-Kernel/include",
+        "/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos",
+        "/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include",
+        "/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/include/freertos",
+        "/Users/kevin/.espressif/v6.1/esp-idf/components/freertos/esp_additions/include",
+        "/Users/kevin/.espressif/v6.1/esp-idf/components/esp_libc/platform_include",
+        "/Users/kevin/.espressif/v6.1/esp-idf/components/**"
+      ],
+      "defines": [
+        "ESP_PLATFORM",
+        "IDF_VER=\"v6.1\""
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "/Users/kevin/.espressif/v6.1/esp-idf/components"
+        ],
+        "limitSymbolsToIncludedHeaders": false
+      }
+    }
+  ],
+  "version": 4
+}
