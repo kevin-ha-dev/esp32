@@ -1,0 +1,4 @@
+idf_component_register(
+    SRCS "imu.cpp"
+    INCLUDE_DIRS "include"
+)
